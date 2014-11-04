@@ -6,8 +6,8 @@ ViewControllers/.DS_Store
 builds/*
 
 #Xcode project binary
-varietyapp.xcodeproj/project.xcworkspace/xcuserdata/*
-varietyapp.xcodeproj/xcuserdata/*
+scrollTest.xcodeproj/project.xcworkspace/xcuserdata/*
+scrollTest.xcodeproj/xcuserdata/*
 
 #AppCode files
 .idea/*
