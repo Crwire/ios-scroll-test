@@ -1,0 +1,13 @@
+#DS_Store ignoring
+.DS_Store
+ViewControllers/.DS_Store
+
+#.ipa build destination
+builds/*
+
+#Xcode project binary
+varietyapp.xcodeproj/project.xcworkspace/xcuserdata/*
+varietyapp.xcodeproj/xcuserdata/*
+
+#AppCode files
+.idea/*
