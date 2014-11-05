@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CB358AB-4C15-486C-9BB1-FECD56CAA1EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>scrollTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFF7E26818406D91D60AAA5568A6DA664359FE9A</key>
+		<string>github.com:Crwire/ios-scroll-test</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>scrollTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFF7E26818406D91D60AAA5568A6DA664359FE9A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Crwire/ios-scroll-test</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFF7E26818406D91D60AAA5568A6DA664359FE9A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFF7E26818406D91D60AAA5568A6DA664359FE9A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>scrollTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

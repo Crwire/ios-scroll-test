@@ -19,6 +19,9 @@
 		86A71C421A0934910087C66D /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A71C3C1A0934910087C66D /* photo4.png */; };
 		86A71C431A0934910087C66D /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A71C3D1A0934910087C66D /* photo5.png */; };
 		86A71C441A0934910087C66D /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A71C3E1A0934910087C66D /* slow.png */; };
+		86A71C481A0A4A910087C66D /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A71C471A0A4A910087C66D /* CustomScrollViewController.swift */; };
+		86A71C4A1A0A55710087C66D /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A71C491A0A55710087C66D /* PagedScrollViewController.swift */; };
+		86A71C4C1A0A836A0087C66D /* PeekedPageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A71C4B1A0A836A0087C66D /* PeekedPageScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		86A71C3C1A0934910087C66D /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo4.png; path = scrollTest/photo4.png; sourceTree = "<group>"; };
 		86A71C3D1A0934910087C66D /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo5.png; path = scrollTest/photo5.png; sourceTree = "<group>"; };
 		86A71C3E1A0934910087C66D /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slow.png; path = scrollTest/slow.png; sourceTree = "<group>"; };
+		86A71C471A0A4A910087C66D /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
+		86A71C491A0A55710087C66D /* PagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
+		86A71C4B1A0A836A0087C66D /* PeekedPageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekedPageScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				86A71C191A0933A10087C66D /* AppDelegate.swift */,
 				86A71C1B1A0933A10087C66D /* ViewController.swift */,
+				86A71C4B1A0A836A0087C66D /* PeekedPageScrollViewController.swift */,
+				86A71C491A0A55710087C66D /* PagedScrollViewController.swift */,
+				86A71C471A0A4A910087C66D /* CustomScrollViewController.swift */,
 				86A71C1D1A0933A10087C66D /* Main.storyboard */,
 				86A71C201A0933A10087C66D /* Images.xcassets */,
 				86A71C221A0933A10087C66D /* LaunchScreen.xib */,
@@ -237,7 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A71C1C1A0933A10087C66D /* ViewController.swift in Sources */,
+				86A71C4C1A0A836A0087C66D /* PeekedPageScrollViewController.swift in Sources */,
+				86A71C4A1A0A55710087C66D /* PagedScrollViewController.swift in Sources */,
 				86A71C1A1A0933A10087C66D /* AppDelegate.swift in Sources */,
+				86A71C481A0A4A910087C66D /* CustomScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +374,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = scrollTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -372,7 +386,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = scrollTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
